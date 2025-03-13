@@ -1,162 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitemap - First Baptist Church of Frostproof</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #1a3668;
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #1a3668;
-            padding-bottom: 10px;
-        }
-        .sitemap-section {
-            margin-bottom: 30px;
-        }
-        .sitemap-section h2 {
-            color: #1a3668;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #ddd;
-        }
-        .sitemap-section ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-        .sitemap-section ul li {
-            margin: 10px 0;
-        }
-        .sitemap-section ul li ul {
-            margin-top: 10px;
-        }
-        a {
-            color: #1a3668;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .footer {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-            border-top: 1px solid #ddd;
-            padding-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Sitemap - First Baptist Church of Frostproof</h1>
-        
-        <div class="sitemap-section">
-            <h2>Main Pages</h2>
-            <ul>
-                <li><a href="https://www.fbcfrostproof.com/">Home</a></li>
-                <li><a href="https://www.fbcfrostproof.com/about-us">About Us</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/about-us/our-history">Our History</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/about-us/our-beliefs">Our Beliefs</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/about-us/staff">Staff & Leadership</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/about-us/faq">Frequently Asked Questions</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/worship">Worship</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/worship/sunday-services">Sunday Services</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/worship/music-ministry">Music Ministry</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/worship/sermons">Sermon Archive</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/ministries">Ministries</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/children">Children's Ministry</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/youth">Youth Ministry</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/adult">Adult Ministry</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/seniors">Seniors Ministry</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/missions">Missions</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/ministries/community-outreach">Community Outreach</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/get-involved">Get Involved</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/get-involved/small-groups">Small Groups</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/get-involved/volunteer">Volunteer Opportunities</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/get-involved/prayer-requests">Prayer Requests</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/get-involved/baptism">Baptism</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/get-involved/membership">Membership</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/events">Events</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/events/calendar">Church Calendar</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/events/upcoming">Upcoming Events</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/events/special-services">Special Services</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/resources">Resources</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/resources/bible-study">Bible Study Resources</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/resources/devotionals">Devotionals</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/resources/newsletters">Newsletters</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/resources/forms">Forms</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/giving">Giving</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/giving/online">Online Giving</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/giving/stewardship">Stewardship</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/giving/planned-giving">Planned Giving</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.fbcfrostproof.com/contact">Contact Us</a>
-                    <ul>
-                        <li><a href="https://www.fbcfrostproof.com/contact/location">Location & Directions</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/contact/office-hours">Office Hours</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/contact/staff-directory">Staff Directory</a></li>
-                        <li><a href="https://www.fbcfrostproof.com/contact/prayer-requests">Prayer Requests</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="sitemap-section">
-            <h2>Media</h2>
-            <ul>
-                <li><a href="https://www.fbcfrostproof.com/media/sermons">Sermon Videos</a></li>
-                <li><a href="https://www.fbcfrostproof.com/media/photo-gallery">Photo Gallery</a></li>
-                <li><a href="https://www.fbcfrostproof.com/media/live-stream">Live Stream</a></li>
-                <li><a href="https://www.fbcfrostproof.com/media/podcasts">Podcasts</a></li>
-            </ul>
-        </div>
-        
-        <div class="sitemap-section">
-            <h2>Legal & Policies</h2>
-            <ul>
-                <li><a href="https://www.fbcfrostproof.com/privacy-policy">Privacy Policy</a></li>
-                <li><a href="https://www.fbcfrostproof.com/terms-of-use">Terms of Use</a></li>
-                <li><a href="https://www.fbcfrostproof.com/copyright">Copyright Information</a></li>
-            </ul>
-        </div>
-        
-        <div class="footer">
-            <p>© 2025 First Baptist Church of Frostproof. All Rights Reserved.</p>
-            <p>Last Updated: March 13, 2025</p>
-            <p><a href="https://www.fbcfrostproof.com">www.fbcfrostproof.com</a></p>
-        </div>
-    </div>
-</body>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://fbcfrostproof.com/</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>https://fbcfrostproof.com/about</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+    <url>
+      <loc>https://fbcfrostproof.com/beliefs</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fbcfrostproof.com/staff</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fbcfrostproof.com/ministries</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+    <url>
+      <loc>https://fbcfrostproof.com/events</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://fbcfrostproof.com/sermons</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+    <url>
+      <loc>https://fbcfrostproof.com/give</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://fbcfrostproof.com/contact</loc>
+      <lastmod>2023-10-27</lastmod> <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   </urlset>
 </html>
