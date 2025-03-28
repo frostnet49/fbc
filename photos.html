@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .image-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .image-item:hover {
+            transform: scale(1.05);
+        }
+        .image-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .image-item p {
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Image Gallery</h1>
+    <div class="image-grid">
+        <div class="image-item">
+            <img src="images/photo1.jpg" alt="Photo 1">
+            <p>Photo 1</p>
+        </div>
+        <div class="image-item">
+            <img src="images/photo2.jpg" alt="Photo 2">
+            <p>Photo 2</p>
+        </div>
+        <div class="image-item">
+            <img src="images/photo3.jpg" alt="Photo 3">
+            <p>Photo 3</p>
+        </div>
+        <!-- Add more image items as needed -->
+    </div>
+</body>
+</html>
